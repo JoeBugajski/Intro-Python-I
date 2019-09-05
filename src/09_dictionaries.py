@@ -48,9 +48,14 @@ for x in waypoints:
 
 print(waypoints)
 
+
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 
+def print_waypoint():
+    return f'{k}: {v}'
+
+
 for d in waypoints:
     for k, v in d.items():
-        print(f'k: {k}, v: {v}')
+        print(print_waypoint())
